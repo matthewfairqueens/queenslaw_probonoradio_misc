@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_preprocess_breadcrumb().
+ *
+ * Cache breadcrumbs per URL, otherwise all breadcrumbs for a given content type show the
+ * same item, regardless of what the current item actually is.
+ */
+function queenslaw_probonoradio_misc_preprocess_breadcrumb(&$variables) {
+  if (($node = \Drupal::routeMatch()->getParameter('node')) && (isset($variables['breadcrumb'])) && ($variables['breadcrumb'])) $variables['#cache']['contexts'][] = 'url';
+}

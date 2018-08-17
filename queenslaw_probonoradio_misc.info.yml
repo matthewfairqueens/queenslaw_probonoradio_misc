@@ -1,0 +1,7 @@
+name: "Queen's University Faculty of Law Pro Bono Radio"
+type: module
+description: "Miscellaneous custom functionality for the Queen's University Faculty of Law Pro Bono Radio website."
+package: "Queen's University Faculty of Law"
+dependencies:
+  - drupal:twig_tweak
+core: 8.x
