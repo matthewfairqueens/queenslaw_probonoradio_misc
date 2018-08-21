@@ -1,8 +1,8 @@
 {
   "name": "drupal/queenslaw_probonoradio_misc",
   "description": "Miscellaneous custom functionality for the Queen's University Faculty of Law Pro Bono Radio website.",
-  "type": "drupal-module",
-  "homepage": "http://probonoradio.law.queensu.ca/",
+  "type": "drupal-custom-module",
+  "homepage": "http://law.queensu.ca/",
   "authors": [
     {
       "name": "Noah St. Amand",
@@ -10,5 +10,7 @@
       "role": "Maintainer"
     }
   ],
-  "license": "GPL-2.0+"
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": { }
 }
